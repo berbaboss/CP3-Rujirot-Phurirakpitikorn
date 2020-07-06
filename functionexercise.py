@@ -1,6 +1,5 @@
 def vatCalculate(totalprice):
-    result = totalprice+(totalprice*7/100)
-    return result
+    return totalprice+(totalprice*7/100)
 price = int(input("Price : "))
 print("Total price include vat",vatCalculate(price))
 
